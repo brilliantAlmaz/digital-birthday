@@ -145,7 +145,6 @@ html {
   flex-shrink: 0;
   flex-grow: 0;
   border: 1px solid #adb5bd;
-  border-radius: 0.25em;
   margin-right: 0.5em;
   background-repeat: no-repeat;
   background-position: center center;
@@ -153,8 +152,9 @@ html {
 }
 
 .custom-checkbox:checked + label::before {
-  border-color: #0b76ef;
+  border-color: #ffb990;
   background-color: #0b76ef;
+  background: url("./../img/check.png") left 2px no-repeat;
 }
 
 label {

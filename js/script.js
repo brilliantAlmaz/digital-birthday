@@ -87,7 +87,7 @@ async function laugh(pageID) { //for pages that contain laughs
 		}
 
 
-	}, time / 2)
+	}, time)
 
 	let itemInterval = setInterval(() => {
 		if (count > laughCount - 7 && laughPageCount == 3) {
@@ -116,7 +116,7 @@ async function laugh(pageID) { //for pages that contain laughs
 				);
 			}
 		laughItemCount++;
-	}, time / 8);
+	}, time / 4);
 }
 
 

@@ -296,16 +296,6 @@ function nextPage(id) {
 
 					})
 				})
-				document.querySelector('.landing').onscroll = function () {
-
-					landingComponents.forEach(function (item) {
-						if (onScreen(item)) {
-							item.style.opacity = 1;
-						}
-						console.log(window.pageYOffset)
-
-					})
-				};
 				break;
 			case 7:
 				let t01BeforeEnd = setTimeout(() => {

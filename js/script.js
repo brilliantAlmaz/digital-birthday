@@ -71,7 +71,7 @@ async function laugh(pageID) { //for pages that contain laughs
 		nextPage(pageCount);
 
 
-	}, time / 2 * (laughCount + 6))
+	}, time * (laughCount + 6))
 	console.log('laugh is ' + laughPageCount)
 	i = setInterval(() => {
 
